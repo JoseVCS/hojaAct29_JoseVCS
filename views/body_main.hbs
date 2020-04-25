@@ -1,0 +1,32 @@
+<section>
+    <img id="logoGit" src="img/gitHub.png">
+    <h1>LISTADO DE API's</h1>
+    <h2>API's disponibles en gitHub</h2>
+    <hr>
+    <p>
+        Selecciona una categoría para mostrar las API's disponibles.<br>
+        <span class="alerta">
+            [*] Servicios API empleados para la realización de esta demo:
+            <a href="https://github.com/davemachado/public-api" title="info API" target="_blank">
+                davemachado / public-api
+            </a>
+        </span>
+    </p>
+    <p>
+    </p>
+    <form action="/" method="get">
+        <p>
+        <label for="categoria">Categoria</label>
+        <select name="categoria" id="categoria">
+        </select>
+        </p>
+        <p>
+        <label for="leerDatos">Obtener API disponible</label>
+        <button id="leerDatos">Cargar datos...</button>
+        </p>
+    </form>
+</section>
+<div id="totalRes">
+</div>
+<div id="resultado" class="invisible">
+</div>

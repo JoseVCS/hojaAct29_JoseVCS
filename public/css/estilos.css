@@ -1,0 +1,86 @@
+* {
+   box-sizing: border-box;
+   font-size: 14px;
+}
+body {
+   margin: 0;
+   padding: 2rem;
+}
+hr {
+   border: 0;
+   border-bottom: 2px solid black;
+}
+h1 {
+   margin: 0;
+   padding: 0;
+   font-size: 1.75rem;
+}
+h2 {
+   margin: 0;
+   padding: 0;
+   font-size: 1.2rem;
+}
+form p {
+   margin: 0.2rem;
+}
+label {
+   display: inline-block;
+   width: 14rem;
+   padding: 0.2rem;
+   border: 1px solid #555;
+   border-radius: 4px;
+   background-color: #dedede;
+}
+select, button {
+   width: 17rem;
+   text-align: center;
+}
+div#totalRes {
+   margin: 1rem 0;
+   margin-bottom: 0;
+   padding: 1rem;
+   border-bottom: 1px solid #444;
+   background-color: #fafafa;
+   color:#000;
+}
+div#resultado {
+   margin: 2rem;
+   padding: 1rem;
+   border: 1px solid #444;
+   border-radius: 4px;
+   background-color: #1b1b1b67;
+   font-size: 0.9rem;
+   line-height: 1.75rem;
+}
+div#resultado p {
+   margin: 0.2rem 0rem;
+   padding: 0.2rem 0.1rem;
+   border: 1px dotted #fff;
+   border-left: 5px solid #f00;
+   border-radius: 4px;
+   background-color: #eee;
+}
+span.etiqueta {
+   margin: 0.1rem 0.2rem;
+   padding: 0rem 0.25rem;
+   border: 1px solid #444;
+   border-radius: 4px;
+   background-color: hsl(240, 20%, 35%);
+   color: #eee;
+   font-weight: 999;
+}
+span.alerta {
+   color: #f00;
+   font-style: italic;
+}
+.invisible {
+   display: none;
+}
+.visible {
+   display: block;
+}
+#logoGit{
+   float: right;
+   width: 250px;
+   border-left: 1px solid #000;
+}
