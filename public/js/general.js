@@ -11,8 +11,9 @@ async function obtenerCategorias() {
    });
 }
 
-async function obtenerDatos() {
+async function obtenerDatos(event) {
    /* FIXME: No carga los datos. La variable categoria pierde su valor porque está recargando la página */
+   event.preventDefault();
    categoria = document.getElementById("categoria").value;
    let resp = await fetch("https://api.publicapis.org/entries?category="+categoria, {method: "GET", cache: 'no-cache'});
    resp = (await resp.json()).entries;
