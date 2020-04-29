@@ -1,0 +1,21 @@
+<table id="tabla">
+    <thead>
+        <tr>
+            <th><span class="etiqueta">Nombre</span></th>
+            <th><span class="etiqueta">Descripción</span></th>
+            <th><span class="etiqueta">HTTP</span></th>
+            <th><span class="etiqueta">CORS</span></th>
+
+        </tr>
+    </thead>
+    <tbody>
+        {{#each resp}}
+        <tr>
+            <td class="etiqueta">{{API}}</td>
+            <td class="etiqueta">{{Description}}</td>
+            <td class="etiqueta">{{HTTPS}}</td>
+            <td class="etiqueta">{{Cors}}</td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
